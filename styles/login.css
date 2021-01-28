@@ -1,0 +1,44 @@
+body{
+  background-color:#696969;
+}
+
+#loginBtn{
+  width:340px;
+  height:50px;
+  color:#DEB887;
+  border-radius: 30px;
+  text-align: center;
+  font-size:30px;
+  font-style:italic;
+  background-color:	#D2691E;
+}
+
+.form-container{
+  text-align:center;
+  justify-content:center;
+  position: relative;
+  background-color:#A9A9A9;
+  border-radius:20px;
+  top:200px;
+}
+
+.logInfo{
+  margin:20px;
+  padding:10px;
+  border-radius: 20px;
+}
+
+.form-container b{
+  font-size:20px;
+}
+
+.btnC:focus{
+  background-color:blue;
+}
+
+#wrongLogin{
+  display:none;
+  background-color: purple;
+  position: absolute;
+  top:600px;
+}
